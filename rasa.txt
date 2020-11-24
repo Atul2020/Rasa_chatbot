@@ -1,3 +1,5 @@
+MY NOTES:
+
 Rasa is an open source machine learning framework for building AI assistants and chatbots. 
 
 It has 2 main modules:
@@ -5,7 +7,7 @@ It has 2 main modules:
 -Rasa Core for holding conversations and deciding what to do next.
 
 
-CheatSheet##
+CheatSheet for Terminal Commands ##
 
 Command			Effect
 rasa init	        Creates a new project with example training data, actions, and config files.
@@ -22,3 +24,5 @@ rasa data validate	Checks the domain, NLU and conversation data for inconsistenc
 rasa export	        Exports conversations from a tracker store to an event broker.
 rasa x			Launches Rasa X in local mode.
 rasa -h			Shows all available commands.
+
+***When running in pycharm use "python -m command"***
