@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_lower_stress
+  - ask_eat_healthy
+  - ask_exercise
 
 responses:
   utter_greet:
@@ -28,6 +31,15 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_stress_info:
+  - text: "It's okay to feel stressed and overwhelmed at times. Try to set realistic expectations and remotivate yourself"
+
+  utter_exercise_info:
+  - text: "Most healthy adults should aim to be getting 150 min of exercise per week. This can be brisk walking, cycling or jogging etc."
+
+  utter_diet_info:
+  - text: "A healthy diet consists of fruits,vegetables, grains, dairy products and various other treats that have to be taken in the rigth proportions"
 
 session_config:
   session_expiration_time: 60
