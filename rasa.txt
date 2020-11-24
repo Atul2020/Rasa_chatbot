@@ -6,6 +6,17 @@ It has 2 main modules:
 -Rasa NLU for understanding user messages
 -Rasa Core for holding conversations and deciding what to do next.
 
+Installing:
+	-To install rasa in command line use:
+	  pip install rasa
+	-To install in pycharm go to interpreter settings and download from there
+
+-Using the command "rasa init" will create a sample moodbot where we can chat with the bot.
+
+-After making changes to the files use "rasa train" to train the bot on the data added.
+
+-Use the "rasa shell" command to interact with the trained model.
+
 
 CheatSheet for Terminal Commands ##
 
