@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7e9a40d-9e7e-43e0-a535-669c09f72f17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/RasaNew.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RasaNew.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nlu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stories.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/20201124-130005.tar.gz" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +70,7 @@
       <workItem from="1606388348974" duration="496000" />
       <workItem from="1606393283662" duration="1054000" />
       <workItem from="1606395781528" duration="2808000" />
-      <workItem from="1606400168795" duration="6837000" />
+      <workItem from="1606400168795" duration="7617000" />
     </task>
     <servers />
   </component>
@@ -99,6 +90,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="646" y="355" width="690" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606408351381">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="646" y="355" width="690" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606408351381" />
     <state x="774" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606401403460">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
