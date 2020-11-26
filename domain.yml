@@ -72,8 +72,11 @@ responses:
   utter_ask_exercise:
     - text: "What exercise did you do?"
 
+  utter_ask_diet:
+    - text: "Did you stick to a healthy diet?"
+
   utter_ask_stress:
-    - text: "Did you stick to a healthy diet yesterday?"
+    - text: "What is your stress level?"
 
   utter_ask_goal:
     - text: "Setting goals-Even a small one is great! What do you want to accomplish?"

@@ -67,13 +67,19 @@ nlu:
 
 - intent: inform
   examples: |
-    - a full [8 hours] (sleep)
-    - only [four hours] (sleep)
-    - about [6 hours] (sleep)
-    - [low] (stress)
-    - [medium] (stress)
-    - [high] (stress)
-    - Yes, I went for a [run] (exercise)
+    - a full [8 hours](sleep)
+    - only [four hours](sleep)
+    - about [6 hours](sleep)
+    - [low](stress)
+    - [medium](stress)
+    - [high](stress)
+    - Yes, I went for a [run](exercise)
+    - yep , I played [tennis](exercise)
+    - i did a [workout](exercise)
+    - dont stay up too late
+    - eat better
+    - yes i took the dog for a [walk](exercise)
+    - only [2 hours](sleep)
 
 - intent: out_of_scope
   examples: |
