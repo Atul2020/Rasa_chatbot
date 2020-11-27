@@ -50,5 +50,11 @@ MY NOTES:
 	-Created slot mappings that tells Rasa how to extract slot values from the user.
 	
  	The  action server and Rasa server have to be run seperately.
+ 
+ [27-11-2020]
+	-Learned about how custom actions can be used.
+	-Learned about what conversation driven development is and the overview of Rasa X.
+	-Learned about the pre-configured pipelines present in rasa.
+	
  	
    
