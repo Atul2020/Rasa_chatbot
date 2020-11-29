@@ -41,6 +41,8 @@ MY NOTES:
 
 
 [26-11-2020]
+	
+	https://www.udemy.com/course/rasa-for-beginners/learn/lecture/21398566?start=225#notes
 
 	-Added more examples in training data.
 	-Created a Rasa form to get input from the user when the chatbot asks a series of questions.
@@ -52,9 +54,22 @@ MY NOTES:
  	The  action server and Rasa server have to be run seperately.
  
  [27-11-2020]
+ 	https://www.udemy.com/course/rasa-for-beginners/learn/lecture/21398566?start=225#notes
+ 	
 	-Learned about how custom actions can be used.
 	-Learned about what conversation driven development is and the overview of Rasa X.
 	-Learned about the pre-configured pipelines present in rasa.
+
+[29-11-2020]
+	
+	-Created a face_recognition_image program to identify unknown faces in a video.
+	
+	https://www.youtube.com/playlist?list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc
+	
+	-Learned about how nlu training data is created and about the pipeline components present.
+	-Learned about dialogue management,slots.
+	-Learned about the dialogue policies.
+	
 	
  	
    
