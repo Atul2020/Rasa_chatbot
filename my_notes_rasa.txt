@@ -38,8 +38,6 @@ MY NOTES:
 	***When running in pycharm use "python -m command"***
 
 
-
-
 [26-11-2020]
 
 	https://www.udemy.com/course/rasa-for-beginners/learn/lecture/21398566?start=225#notes
@@ -146,6 +144,67 @@ MY NOTES:
 	 
 	
 	# Started learning about dialogue policies.
+	
+[30-11-2020]
+
+
+	#Rasa Action Server:
+	
+	 -The Rasa Action Server runs custom actions for Rasa Open source conversational assistant.
+	 
+	 - Rasa run actions command is used to run the actions server from the actions.py file.
+	
+	
+	 A custom action looks like this:
+	 	
+	 "class MyCustomAction(Action):
+
+    		def name(self) -> Text:
+
+        		return "action_name"
+
+    	async def run(
+        	self, dispatcher, tracker: Tracker, domain: Dict[Text, Any],
+  	) -> List[Dict[Text, Any]]:
+
+        return [] "
+        
+        
+        -To define a custom action, a subclass of action class is created and the two methods run and action have to be overwritten.
+        
+        -The tracker class represents the Rasa conversation tracker.
+        
+        -The Dispatcher is used to generate responses to send ack to the user
+	                                     
+	                                     
+	#RasaX:
+	 
+	 -RasaX is a toolset used to improve assistants built with rasa open source.
+	 
+	 -It allows us to easily share our assistant with real users and review their conversations to improve the chatbot.
+	 
+	 -Learned how rasa x can be installed in the local mode and how it is run.
+	 
+	 -To install Rasa X on the local machine use:
+	 
+	     pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
+	    
+	 -Then use "rasa X" command to launch the interactive UI.
+	 
+	 
+	 #Learned about how our chatbot can be shared with everyone for development using ngrok.
+	 
+	   https://www.youtube.com/watch?v=oSF7mIPW8qE&list=PLtFHvora00y8NBwCMoNnPqii-y2-gyl5p&index=13
+	 
+	  -Login to ngrok and connect your account by running the authtoken command.
+	  
+	  -Run ./ngrok http 5002 command to set your tunnel up and running.
+	  
+	  -Then use the url provided by ngrok and replace it with the localhost part of the shared url from Rasa X.
+	  
+	  -This url can be shared with anyone and their conversations will be recorded by Rasa x and the conversations can be used for development purpose.
+	 
+	 
 	
 	
  	

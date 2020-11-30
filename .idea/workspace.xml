@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e9a40d-9e7e-43e0-a535-669c09f72f17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_notes_rasa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/my_notes_rasa.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/RASA_Chatbot" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/RasaX" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +73,10 @@
       <workItem from="1606393283662" duration="1054000" />
       <workItem from="1606395781528" duration="2808000" />
       <workItem from="1606400168795" duration="7617000" />
+      <workItem from="1606707582086" duration="2056000" />
+      <workItem from="1606721640455" duration="48000" />
+      <workItem from="1606726480152" duration="1603000" />
+      <workItem from="1606729381903" duration="1526000" />
     </task>
     <servers />
   </component>
@@ -94,14 +100,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="646" y="355" width="690" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606408351381" />
-    <state x="774" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606401403460">
+    <state x="774" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606729837666">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="774" y="314" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606401403460" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1606388078980">
+    <state x="774" y="314" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606729837666" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1606729316310">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606388078980" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606729316310" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
