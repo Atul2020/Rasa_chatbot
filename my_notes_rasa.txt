@@ -1,0 +1,152 @@
+MY NOTES:
+[24-11-2020]
+	Rasa is an open source machine learning framework for building AI assistants and chatbots. 
+
+	It has 2 main modules:
+	-Rasa NLU for understanding user messages
+	-Rasa Core for holding conversations and deciding what to do next.
+
+	Installing:
+		-To install rasa in command line use:
+		 pip install rasa
+		-To install in pycharm go to interpreter settings and download from there
+
+	-Using the command "rasa init" will create a sample moodbot where we can chat with the bot.
+
+	-After making changes to the files use "rasa train" to train the bot on the data added.
+	-Use the "rasa shell" command to interact with the trained model.
+
+
+	CheatSheet for Terminal Commands ##
+
+	Command			Effect
+	rasa init	        Creates a new project with example training data, actions, and config files.
+	rasa train	        Trains a model using your NLU data and stories, saves trained model in ./models.
+	rasa interactive        Starts an interactive learning session to create new training data by chatting to your assistant.
+	rasa shell	        Loads your trained model and lets you talk to your assistant on the command line.
+	rasa run	        Starts a server with your trained model.
+	rasa run actions        Starts an action server using the Rasa SDK.
+	rasa visualize	        Generates a visual representation of your stories.
+	rasa test	        Tests a trained Rasa model on any files starting with test_.
+	rasa data split nlu	Performs a 80/20 split of your NLU training data.
+	rasa data convert	Converts training data between different formats.
+	rasa data validate	Checks the domain, NLU and conversation data for inconsistencies.
+	rasa export	        Exports conversations from a tracker store to an event broker.
+	rasa x			Launches Rasa X in local mode.
+	rasa -h			Shows all available commands.
+
+	***When running in pycharm use "python -m command"***
+
+
+
+
+[26-11-2020]
+
+	https://www.udemy.com/course/rasa-for-beginners/learn/lecture/21398566?start=225#notes
+
+	-Added more examples in training data.
+	
+	-Created a Rasa form to get input from the user when the chatbot asks a series of questions.
+	
+	-Rasa forms use slots to get the data from the user.
+	
+	-Created an actions.py file that creates a FormAction.
+	
+	-Created slot mappings that tells Rasa how to extract slot values from the user.
+	
+ 	The  action server and Rasa server have to be run seperately.
+ 
+ [27-11-2020]
+ 	https://www.youtube.com/playlist?list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc
+ 	
+	# Learned about creating nlu training data.
+	
+	 -NLU training data stores structured information about user messages.
+	 
+	 -The nlu.md file contains various intents with the a set of training examples for each intent.
+	 
+	 -The more the number of training examples provided the better the chatbot will be able to perform.
+	 
+	 -Entitites can be represented in the training data within brackets so that the specific information can be extracted from the user information.
+	 
+	# Learned about the pre-configured pipelines present in rasa.	
+	
+	 -There are 2 pre-configured pipelines present in Rasa:
+	    	 	
+	    	 1)pretrained_embeddings_spacy pipeline
+	    	   
+	    	   -It loads the pretrained language models
+	    	   
+	    	   Advantages:
+	    	   	-Better model performance with less training data required
+	    	   	- Faster training and iteration times
+	    	   Disadvantages:
+	    	   	-We are limited to languages which have pretrained word embeddings
+	    	   	-They do not cover domain specific words such as product names.
+	    	 
+	    	 2) supervised_embeddings pipeline
+	    	   
+	    	    - This pipeline is used to learn everything from scratch based on the data provided in the nlu.yml file.
+	    	    
+	    	    Advantages:
+	    	    	- The model will pick up domain specific vocabulary.
+	    	    	
+	    	    	- You can build assistants in any language that can be tokenized.
+	    	    	
+	    	    	- It can be used to habdle advanced cases such as messages with multiple intents.
+
+[29-11-2020]
+	
+
+	
+	https://www.youtube.com/playlist?list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc
+	
+	# Learned about the pipeline components present.
+	 
+	#Learned about the dialogue management 
+	 
+	 - The dialogue management is done in the stories.yml file.
+	 
+	 -The stories.yml file contains various stories or paths.
+	 
+	 - Each path contains steps which consists of actions for each intent.
+	 
+	# Learned about domains,custom actions and slots.
+		
+	  Domain:
+	  	
+	  	-The domain is specified in the domain.yml file.
+	  	
+	  	-The names of the intents and entities are declared in this file.
+	  	
+	  	-All the responses for the actions present in the stories.yml file are declared here.
+	  
+	  Custom actions:
+	  	
+	  	- Custom actions are declared in the actions.py file.
+	  	
+	  	-They are the responses of an assistant that include a custom code.
+	  	
+	  	-Any code can be run here like api calls and database queries.
+	  	
+	  Slots:
+	  	
+	  	-Slots are used to get and store the information as a form.
+	  	
+	  	-Slots are the bot's memory.
+	  	
+	  	-Types of slots are:
+	  		
+	  		-Text slot
+	  		-Boolean slot
+	  		-Categorical slot
+	  		-Float slot
+	  		-List slot
+	  		-Unfeaturized slot
+	 
+	
+	# Started learning about dialogue policies.
+	
+	
+ 	
+   
